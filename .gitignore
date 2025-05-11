@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Large files
+*.onnx
+*.engine
+*.plan
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Model weights and checkpoints
+models/*
+!models/.gitkeep
+
+# TensorRT engines
+models/trt_engines/*
+!models/trt_engines/.gitkeep
+
+# Test data
+test_images/
+
+# Output files
+output_*.png
+processed_image.png
+
+# Kaggle credentials
+.kaggle/
+
+# System files
+.DS_Store
+Thumbs.db
